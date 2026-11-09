@@ -1,21 +1,18 @@
-{
+
   "name": "projecttask",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node init && nodemon index.js",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@sendgrid/mail": "^8.1.5",
     "bcrypt": "^6.0.0",
-    "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "jest": "^30.0.3",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.17.0",
     "mongoose": "^8.16.0",
